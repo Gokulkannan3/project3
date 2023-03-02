@@ -1,0 +1,111 @@
+body {
+    width: 100%;
+    background-color: rgb(49, 182, 109);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+  }
+  
+  .login-box {
+    display:flex;
+    flex : 1;
+    justify-content : center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    border: none;
+    background-color: rgba(255, 255, 255, 0.9);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+  }
+  
+  .login-box h1 {
+    margin-top: 0;
+    color: #444;
+    font-size: 28px;
+  }
+  
+  .login-box label {
+   display: block;
+    text-align: left;
+    margin-bottom: 4px;
+    color: #777;
+  }
+  
+  .login-box input[type="email"],
+  .login-box input[type="password"] {
+    width: 100%;
+    padding: 20px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 16px;
+  }
+  
+  .login-box input[type="email"]:hover{
+    background-color: rgb(255, 112, 112);
+    border-color: rgb(0, 26, 255);
+  }
+  .login-box input[type="password"]:hover{
+    background-color: rgb(255, 112, 112);
+    border-color: rgb(0, 26, 255);
+  }
+  
+  .login-box button[type="submit"] {
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+    transition: background-color 0.3s;
+  }
+  
+  .login-box button[type="submit"]:hover {
+    background-color: #3e8e41;
+  }
+
+  .Dr{
+    display:flex;
+    flex : 1;
+    justify-content : center;
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    border: none;
+  }
+  
+  .d{
+    font-size: 50px;
+    background-color: rebeccapurple;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: yellow;
+    border-radius: 10px;
+  }
+
+  .d:hover{
+    background-color: yellow;
+    color: rebeccapurple;
+  }
+  .r{
+    font-size: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: yellow;
+    color: rebeccapurple;
+    border-radius: 10px;
+  }
+  .r:hover{
+    background-color: rebeccapurple;
+    color: yellow;
+  }
